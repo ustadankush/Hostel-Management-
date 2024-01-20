@@ -1,0 +1,215 @@
+body{
+    width: 100%;
+    height: 100;
+    background: url(Q4.jpg) no-repeat 0% 0px;
+       
+        min-height: 0vh;
+        background-size:100% 100vh;
+       overflow-x: hidden;
+    }
+    .animate-charcter{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    
+    text-align: center;
+    color: white;
+    animation: alternate aj 5s;
+    }
+    
+    @keyframes aj {
+    
+        to{
+            color: white;
+        }
+        
+        from{
+           color: green;
+        }
+    }
+
+    .btn{ margin: 3%;
+        border-radius: 6%;
+            
+    background-color: #4c9baf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}  
+    
+    .all{
+    
+        max-width: 50vh;
+        max-height: 10%;
+        margin: 3% auto;
+       padding: 1%;
+       color: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: space-evenly center;
+    justify-items: center;
+    border-radius: 12px;
+    
+    box-shadow: 0px 2px 4px black;
+    background-color: rgb(15, 15, 24);
+    filter: opacity(93%);
+    }
+    .texts{
+    color: aliceblue;
+        text-align: center;
+        font-size:2vhS;
+    }
+    
+    footer{
+        margin: 8%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 3px 2px black;
+        text-align: center;
+    color: aliceblue;
+    font-size: 7vh;
+    
+    }
+    
+    
+    @media (max-width: 700px) {
+    
+    .animate-charcter{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 4vw;
+        
+        text-align: center;
+        color: red;
+        }
+        .a{
+            width: 72%;
+    
+    border: 2px solid red;
+    
+    
+        }
+      .btn{
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }  
+        
+    
+    }
+
+
+/*body{
+
+
+    margin: 256;
+    padding: 200;
+   background: url(Q4.jpg) no-repeat 0% 0px;
+    min-height: 0vh;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+body:hover{
+transition: 2s;
+
+    margin: 256;
+    padding: 200;
+   background: url(Q8.jpg) no-repeat 0% 0px;
+    min-height: 0vh;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.username{
+
+text-align: center;
+position: relative;
+top: 130px;
+
+}
+
+.password{
+
+text-align: center;
+position: relative;
+top: 140px;
+
+}
+
+.confirm{
+    text-align: center;
+
+    position: relative;
+    top: 171px;
+    right: 54px;
+}
+
+.all{
+font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-indent: 34px;
+ border: 6px solid rgb(10, 4, 54);
+ border-radius: 34px;
+background-color:white;
+position: relative;
+width: 840px;
+height: 500px;
+top: 324px;
+left: 840px;
+box-shadow: 3px 53px 56px rgb(36, 6, 73);
+}
+.btn{
+    font-size: 32px;
+border-radius: 12px;
+    position: relative;
+    top:205px;
+    left: 302px;
+    color: aliceblue;
+background-color: blue;
+width: 214px;
+height: 54px;
+}
+footer
+
+{
+
+position:relative;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 67px;
+top:490px;
+text-align: center;
+color: aliceblue;
+text-shadow: 31px 34px 45px rgb(26, 23, 23);
+
+
+}
+
+.a{
+border: 2px solid black;
+width: 230px;
+height: 34px;
+font-size: 34px;
+}
+.a:hover{
+    border: 7px solid blue;
+    width: 230px;
+    height: 34px;
+    font-size: 34px;
+    }
+
+
+.b{
+    border: 2px solid black;
+    width: 230px;
+    height: 34px;
+    font-size: 34px;
+    }
+
+    .b:hover{
+        border: 7px solid red;
+        width: 230px;
+        height: 34px;
+        font-size: 34px;
+        }

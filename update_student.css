@@ -1,0 +1,93 @@
+body{
+
+max-width: 100%;
+max-height: 100%;
+    
+    padding: 200;
+   background: url(Q4.jpg) no-repeat 0% 0px;
+    
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+  }
+.totalframe{
+  max-width: 78vh;
+  max-height: 23%;
+  margin: 1% auto;
+ padding: 1%;
+  color: aliceblue;
+border: 2px solid black;
+text-align: center;
+display:flow-root;
+justify-content: space-evenly center;
+justify-items: center;
+border-radius: 12px;
+
+box-shadow: 0px 2px 4px black;
+background-color: rgb(31, 31, 254);
+filter: opacity(93%);
+
+}
+
+span{
+
+  text-shadow: 0px 2px 3px rgb(154, 13, 235);
+font-size: 56%;
+
+color: rgb(221, 217, 214);
+
+}
+
+.form_control{
+height: 2%;
+
+width: 43%;
+
+text-align: center;
+
+}
+
+
+
+
+label{
+
+
+color: white;
+font-weight: bolder;
+font-size: 2vh;
+
+}
+
+
+
+
+.btn{
+color: aliceblue;
+border-radius: 34px;
+background-color: red;
+width: 130px;
+height: 42px;
+
+}
+
+
+h2{
+font-size: 6vh;
+
+color:white;
+text-shadow: 0px 2px 2px black;
+
+  text-align: center;
+  
+}
+
+.animate-charcter{
+  text-shadow: 0px 2px 2px black;
+
+color: red;
+font-size: 4vh;
+  text-align: center;
+}
+
+
+

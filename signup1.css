@@ -1,0 +1,194 @@
+body{
+
+
+  margin: 256;
+  padding: 200;
+ background: url(Q4.jpg) no-repeat 0% 0px;
+  min-height: 0vh;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+body:hover{
+
+transition: 3s;
+  margin: 256;
+  padding: 200;
+ background: url(Q8.jpg) no-repeat 0% 0px;
+  min-height: 0vh;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+.password{
+
+text-align: center;
+position: relative;
+top: -100px;
+left:51px;
+}
+
+.confirm{
+  text-align: center;
+
+  position: relative;
+  top: -120px;
+  right: -94px;
+}
+
+.all{
+font-size: 35px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-indent: 34px;
+border: 6px solid rgb(10, 4, 54);
+border-radius: 34px;
+background-color:white;
+position: relative;
+width: 1300px;
+height: 600px;
+top: 324px;
+left: 540px;
+box-shadow: 3px 53px 56px rgb(36, 6, 73);
+}
+.btn{
+  font-size: 32px;
+border-radius: 12px;
+  position: relative;
+  top:15px;
+  left: 102px;
+  color: aliceblue;
+background-color: rgb(172, 18, 18);
+width: 214px;
+height: 54px;
+}
+.btn:active{
+  font-size: 32px;
+border-radius: 12px;
+  position: relative;
+  top:15px;
+  left: 102px;
+  color: aliceblue;
+background-color: blue;
+width: 214px;
+height: 54px;
+}
+footer
+
+{
+
+position:relative;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 67px;
+top:420px;
+text-align: center;
+color: aliceblue;
+text-shadow: 31px 34px 45px rgb(26, 23, 23);
+
+
+}
+
+.a{
+  text-align: center;
+border: 2px solid black;
+width: 230px;
+height: 34px;
+font-size: 34px;
+}
+.a:hover{
+  text-align: center;
+border: 6px solid red;
+width: 230px;
+height: 34px;
+font-size: 34px;
+}
+.b{
+  border: 2px solid black;
+  width: 230px;
+  height: 34px;
+  font-size: 34px;
+  }
+  .b:hover{
+    border: 7px solid rgb(34, 3, 212);
+    width: 230px;
+    height: 34px;
+    font-size: 34px;
+    }
+  
+  
+
+.year{
+
+
+position: relative;
+top: -181px;
+left: 534px;
+  }
+.mail{
+
+position: relative;
+top: -131px;
+left: 534px;
+}
+
+.branch{
+
+position: relative;
+top: 205px;
+left: 47px;                
+ }
+
+ .roll{
+  position: relative;
+     top: 100px; 
+     left :54px;
+
+    }
+
+ .fname{
+  position: relative;
+     top: 150px; 
+     left :-4px;
+
+    }
+
+ .lname{
+position: relative;
+   top: 190px; 
+   left :-4px;
+
+  }
+   .mobile{
+
+position: relative;
+top: 190px;
+               
+}
+ 
+
+.imageuplod{
+font-size: 45px;
+width: 445px;
+height: 54px;
+background-color: red;
+position: relative;
+top: -80px; 
+left: 491px;
+}  
+     .links{
+
+color: rgb(0, 0, 0);
+position: relative;
+top: -90px;
+
+
+     }
+
+
+
+     .copyright_info{
+bottom: -134px;
+color: black;
+
+     }

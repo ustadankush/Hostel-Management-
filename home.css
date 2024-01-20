@@ -1,0 +1,665 @@
+body{
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+
+}
+
+
+.frame2{
+    max-width: 100%;
+min-height: 7%;
+    background-color:beige;
+border: 0px solid black;
+display: flex;
+
+text-shadow: 0px 1px 21px rgb(146, 45, 45);
+color: rgb(19, 0, 128);
+font-weight: bolder;
+font-family:cursive;
+font-size: 1.8vw;
+text-align: center;
+justify-content:left;
+
+gap: 34%;
+
+}
+
+.imgs{
+
+
+    border-radius: 45%;
+}
+
+
+.frame3{
+    
+    max-width: 100%;
+max-height: 7vwh;
+    background-color:rgb(35, 198, 35);
+border: 0px solid black;
+display: flex;
+text-shadow: 0px 1px 21px rgb(146, 45, 45);
+color: rgb(19, 0, 128);
+font-weight: bolder;
+font-family:cursive;
+font-size: 1.8vw;
+text-align: center;
+justify-content:center;
+
+gap: 34%;
+
+}
+.btn{
+max-width: 100%;
+height: 100%;
+
+font-size: 99%;
+border: 1px solid transparent;
+color: white;
+background-color: transparent;
+
+
+}
+
+
+.btn:hover{
+    
+    color: white;
+    background-color: red;
+    
+    
+    }
+
+.frame4{
+font-size: 86%;
+border: 2px solid black;
+
+
+}
+.framename{
+
+    
+    font-weight: bold;
+    
+    animation: infinite text 5s;
+    }
+    @keyframes text {
+    
+    from{
+    transform: translateX(1443px);
+    }
+    
+       
+    }
+
+
+
+.framegrid{
+
+    max-width: 100%;
+    max-height: 50%;
+     order: 0px solid black;
+    display: flex;
+    text-shadow: 0px 1px 21px rgb(146, 45, 45);
+    color: rgb(19, 0, 128);
+    font-weight: bolder;
+    font-family:cursive;
+    
+    text-align: center;
+    justify-content:center;
+    
+    
+gap: 9%;
+}
+
+    .frame5{
+        max-width: 30%;
+        height: 46%;
+        
+        
+        text-align: center;
+        background-color: green;
+        color: white;
+        font-weight: bolder;
+    border: 2px solid black;
+    
+    
+    }
+    
+.f5name{
+
+   margin: 2%; 
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+text-align: center;
+font-size: 1.3vw;
+
+}
+
+    .oneimg{
+        border: 4% solid black;
+        border-radius: 5%;
+   
+    background-repeat:no-repeat;
+    background-size:148cqmin 64cqmax;
+    animation: infinite t 5s;
+    }
+    @keyframes t {
+        from{box-shadow: -3px -5px -3px 5px black;}
+        to{position: relative;
+            top:5%;
+            box-shadow: 3px 5px 3px 5px rgb(1, 78, 1);}
+    }
+    
+.allimage{
+font-size: 155%;
+margin: 1.9vh;
+
+}    
+
+
+.principalborder{
+    
+    text-align: center;
+    background-color:rgb(52, 136, 219);
+    width: 24%;
+    height: 86%;
+    border: 2px solid black;
+    gap: 3%;
+    }
+    
+    .pimage{
+        margin: 6%;
+        text-align: center;
+    width :52%;
+    height: 42%;
+        background-image: url(principal1.jpg);
+        background-repeat:no-repeat;
+        background-size:31cqmin 14cqmax;
+    border-radius: 4px;
+    box-shadow: 2px 2px 56px 4px black;
+    }
+    pre{
+        color: black;
+        position: relative;
+        font-size: 100%;
+        right: 25%;
+    }
+    
+    
+    .principal_sir{
+     
+     font-family: cursive;
+          
+        border :2px solid green;
+        background-color: white;
+        font-weight: bolder;
+        color: blue;
+    font-size: 58%;
+    text-indent: 49px;
+    
+    box-shadow: 1px 34px 8px rgb(223, 0, 0) ;
+    
+    animation: infinite joshi 5s;
+    }
+    
+    @keyframes joshi {
+        from{box-shadow: 1px 4px 8px rgb(223, 0, 0) ;}
+        to{box-shadow: 1px 4px 8px green ;
+        }
+    }
+    
+       .oneimageframe{
+
+margin: 3%;
+border-radius: 12px;
+box-shadow: 1px 34px 8px rgb(33, 53, 33);
+
+    }
+.indexbox{
+margin: 13%;
+text-align: center;
+
+    border: 2px solid green;
+}
+.indexname{
+
+color: white;
+background-color: green;
+
+
+}
+    
+.classimage{
+
+margin: 2%;
+
+
+
+
+}
+
+.classimage{
+display: grid;
+    justify-content:center;
+
+
+}
+
+
+.mission{
+   
+    width:20%;
+    height:10%;
+    border: 2px solid black;
+    
+    
+            }
+            .missionname{
+    
+    font-size: 100%;
+                color: white;
+                background: green;
+                height: 44%;
+                text-align: center;
+            }
+            .thought{
+
+
+                font-size: 76%;
+                text-rendering: 344px;
+                background-color: antiquewhite;
+                visibility: hidden;
+                animation: infinite dex 5s;  
+            }
+            @keyframes dex {
+                from{ visibility:visible;
+                    position: relative;
+            top: 10px;
+            
+            transition: 5s;
+                }
+            
+                to{visibility: hidden;
+                    position: relative;
+                   
+                    top: 2px;    
+                }}
+                .othersites{
+                    border :2px solid green;
+                    width: 20%;
+                    height:12%;
+                    
+                    }
+                    .othersitename{
+                    color:white;
+                        background-color: green;
+                        text-align: center;
+                        font-size: 33%;
+                    }
+                    
+                    .gridset{
+
+max-width: 100%;
+max-height: 20%;
+ order: 0px solid black;
+display: flex;
+text-shadow: 0px 1px 21px rgb(146, 45, 45);
+color: rgb(19, 0, 128);
+font-weight: bolder;
+font-family:cursive;
+
+text-align: center;
+justify-content:center;
+
+
+gap: 9%;
+
+
+                    }
+
+                  
+footer{
+    
+    max-width: 100%;
+    height: 13%;
+        background-color:black;
+        color: aliceblue;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        font-size: 92%;
+    }
+      
+
+
+    @media (max-width:600px) {
+     
+        
+
+        .frame2{
+            max-width: 100%;
+        min-height: 7%;
+            background-color:beige;
+        border: 0px solid black;
+        display: flex;
+        
+        text-shadow: 0px 1px 21px rgb(146, 45, 45);
+        color: rgb(19, 0, 128);
+        font-weight: bolder;
+        font-family:cursive;
+        font-size: 1.8vw;
+        text-align: center;
+        justify-content:left;
+        
+        gap: 34%;
+        
+        }
+        
+        .imgs{
+        
+        
+            border-radius: 45%;
+        }
+        
+        
+        .frame3{
+            
+            max-width: 100%;
+        max-height: 7vwh;
+            background-color:rgb(35, 57, 198);
+        border: 0px solid black;
+        display: flex;
+        text-shadow: 0px 1px 21px rgb(146, 45, 45);
+        color: rgb(19, 0, 128);
+        font-weight: bolder;
+        font-family:cursive;
+        font-size: 1.8vw;
+        text-align: center;
+        justify-content:center;
+        
+        gap: 34%;
+        
+        }
+        .btn{
+            
+        color: rgb(255, 255, 255);
+        background-color: rgb(57, 15, 224);
+        
+        }
+        
+        .frame4{
+        font-size: 86%;
+        border: 2px solid black;
+        
+        
+        }
+        .framename{
+        
+            
+            font-weight: bold;
+            
+            animation: infinite text 5s;
+            }
+            @keyframes text {
+            
+            from{
+            transform: translateX(1443px);
+            }
+            
+               
+            }
+        
+        
+        
+        .framegrid{
+        
+            max-width: 100%;
+            max-height: 70%;
+             order: 0px solid black;
+            display: grid;
+            text-shadow: 0px 1px 21px rgb(146, 45, 45);
+            color: rgb(19, 0, 128);
+            font-weight: bolder;
+            font-family:cursive;
+            
+            text-align: center;
+            justify-content:center;
+            
+            
+        
+        }
+        
+            .frame5{
+                max-width: 100%;
+                height: 76%;
+                
+                
+                text-align: center;
+                background-color:rgb(9, 3, 22);
+                color: white;
+                font-weight: bolder;
+            border: 2px solid black;
+            
+            
+            }
+            
+        .f5name{
+        
+           margin: 2%; 
+            background-color: rgb(0, 21, 255);
+            color: white;
+            font-weight: bolder;
+        text-align: center;
+        font-size: 2vh;
+        
+        }
+        
+            .oneimg{
+                border: 4% solid black;
+                border-radius: 2%;
+           
+            background-image: url(newimage.jpg);
+            background-repeat:no-repeat;
+            background-size:148cqmin 64cqmax;
+            animation: infinite t 5s;
+            }
+            @keyframes t {
+                from{box-shadow: -3px -5px -3px 5px black;}
+                to{position: relative;
+                    top:5%;
+                    box-shadow: 3px 5px 13px 5px rgb(8, 8, 11);}
+            }
+            
+        .allimage{
+        font-size: 3vw;
+        margin: 8%;
+        
+        }    
+        
+        
+        .principalborder{
+            text-align: center;
+            max-width: 900vh;
+            background-color:rgb(50, 68, 86);
+            height: 134vwh;
+            border: 2px solid black;
+            position: relative;
+            left: 37%;
+            }
+            
+            .pimage{
+                
+                text-align: center;
+            width :50%;
+            height: 42%;
+                background-repeat:no-repeat;
+                background-size:31cqmin 14cqmax;
+            border-radius: 4vh;
+            box-shadow: 2px 2px 56px 4px black;
+            }
+            pre{
+                color:black;
+                position: relative;
+                right: 65%;
+            }
+            
+            
+            .principal_sir{
+             
+             font-family: cursive;
+                  
+                border :2px solid red;
+                background-color: white;
+                font-weight: bolder;
+                color: blue;
+            font-size:2%;
+            text-indent: 49px;
+            
+            box-shadow: 1px 34px 8px rgb(223, 0, 0) ;
+            
+            animation: infinite joshi 5s;
+            }
+            
+            @keyframes joshi {
+                from{box-shadow: 1px 4px 8px rgb(223, 0, 0) ;}
+                to{box-shadow: 1px 4px 8px rgb(225, 0, 255) ;
+                }
+            }
+            
+               .oneimageframe{
+        
+        margin: 1%;
+        border-radius: 12px;
+        box-shadow: 1px 4px 8px rgb(33, 53, 33);
+        position: relative;
+        top: -13%;
+        left: 4%;
+        width: 89%;
+            }
+        .indexbox{
+        margin: 23%;
+        text-align: center;
+        
+            border: 2px solid red;
+        }
+        .indexname{
+    
+        color: white;
+        background-color: red;
+        
+        
+        }
+            
+        .classimage{
+        
+        margin: 2%;
+        
+        
+        
+        
+        }
+        
+        .classimage{
+        display: grid;
+            justify-content:center;
+        
+        
+        }
+        
+        
+        .mission{
+           
+            width:20%;
+            height:10%;
+            border: 2px solid black;
+            
+            
+                    }
+                    .missionname{
+            
+            font-size: 100%;
+                        color: white;
+                        background: red;
+                        height: 44%;
+                        text-align: center;
+                    }
+                    .thought{
+        
+        
+                        font-size: 1vwh;
+                        text-rendering: 34%;
+                        background-color: antiquewhite;
+                        visibility: hidden;
+                        animation: infinite dex 5s;  
+                    }
+                    @keyframes dex {
+                        from{ visibility:visible;
+                            position: relative;
+                    top: 10px;
+                    
+                    transition: 5s;
+                        }
+                    
+                        to{visibility: hidden;
+                            position: relative;
+                           
+                            top: 2px;    
+                        }}
+                        .othersites{
+                            border :2px solid red;
+                            width: 20%;
+                            height:12%;
+                            
+                            }
+                            .othersitename{
+                            color:white;
+                                background-color: red;
+                                text-align: center;
+                                font-size: 33%;
+                            }
+                            
+                            .gridset{
+        
+        max-width: 100%;
+        max-height: 20%;
+         order: 0px solid black;
+        display: flex;
+        text-shadow: 0px 1px 21px rgb(146, 45, 45);
+        color: rgb(19, 0, 128);
+        font-weight: bolder;
+        font-family:cursive;
+        
+        text-align: center;
+        justify-content:center;
+        
+        
+        gap: 9%;
+        
+        
+                            }
+        
+                          
+        footer{
+            
+            max-width: 100%;
+            height: 13%;
+                background-color:black;
+                color: aliceblue;
+                display: grid;
+                text-align: center;
+                justify-content: center;
+                font-size: 92%;
+            }
+
+
+
+
+
+
+
+
+
+    }
