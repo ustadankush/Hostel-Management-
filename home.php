@@ -104,7 +104,7 @@ function carousel() {
 <P class="ftextwork">Dr. B. R. Ambedkar, Govt. Polytechnic Ambota</P>
 <P class="ftextwork">POWERED BY ANKUSHJOSHI TEAM!!!</P>
 <H1>TEAM INFO</H1>
-<P class="ftextworks">Computer Engineering Student 5th sem </P>
+<P class="ftextworks">Computer Engineering Student </P>
 
 
 
@@ -113,4 +113,5 @@ function carousel() {
 
 </footer>
 </body>
+
 </html>
